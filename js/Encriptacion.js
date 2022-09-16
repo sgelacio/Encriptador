@@ -4,7 +4,6 @@ let encriptar = document.getElementById("encriptador");
 let desencriptar = document.getElementById("desencriptador");
 let copiar = document.getElementById("copiador");
 
-
 encriptar.addEventListener("click", clickEncriptar);
 desencriptar.addEventListener("click", clickDesencriptar);
 copiar.addEventListener("click", copiado);
@@ -29,7 +28,6 @@ function encriptado(codigo)
     }
   }
   return codigo
- 
 }
 function clickDesencriptar()
 {
