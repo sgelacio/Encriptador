@@ -1,0 +1,119 @@
+*
+{
+    
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 150%;
+}
+body 
+{
+    background-color: #cadafa;
+}
+header
+{
+    padding: 2em 4em;
+}
+.caja
+{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 2em;
+}
+#logo
+{
+    width: 8em;
+    padding: 1em;
+}
+.tituloPrincipal
+{
+    text-align: center;
+    color:rgb(3, 60, 110);
+    font-weight: bold;
+    font-size: 2em;
+    font-style: oblique;
+    text-decoration:aliceblue
+}
+main
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+.ingreso
+{
+    margin: 1em;
+    width: 25em;
+}
+#lineas
+{
+    margin: 1em;
+    border-radius: 0.75em;
+    border-style: hidden;
+}
+.informacion
+{
+    color: rgb(3, 60, 110);
+    font-weight: 800;
+    padding-left: 1.5em;
+    margin: 1em;
+}
+.botones
+{
+    margin-left: 8%;
+}
+#encriptador
+{
+    margin-right: 3.5%;
+    padding: 0.75em;
+    background-color: rgb(45, 45, 153);
+    color:white;
+    border-radius: 15%;
+    border-style: hidden;
+}
+#desencriptador
+{
+    margin-left: 3.5%;
+    padding: 0.75em;
+    background-color: rgb(104, 104, 151);
+    color:white;
+    border-radius: 15%;
+    border-style: hidden;
+}
+.salida
+{
+    width: 15em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+#resultado
+{
+    position: relative;
+    margin-top: 1em;
+    background-image: url(img/detective-1424831_1280.png);
+    background-size: 5em;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    border-radius: 0.75em;
+    border-style:hidden;
+    text-align: center;
+}
+::placeholder
+{
+    color: rgb(2, 2, 102);
+}
+#copiador {
+    position: relative;
+    margin-top: 1.5em;
+    margin-left: 4.5em;
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: rgb(64, 167, 81);
+    color:white;
+    border-radius: 15%;
+    border-style: hidden;
+}
